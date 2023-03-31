@@ -6,7 +6,6 @@ package mockdb
 
 import (
 	context "context"
-	sql "database/sql"
 	reflect "reflect"
 	db "simplebank/db/sqlc"
 
@@ -141,7 +140,7 @@ func (mr *MockStoreMockRecorder) GetAccountForUpdate(arg0, arg1 interface{}) *go
 }
 
 // GetEntry mocks base method.
-func (m *MockStore) GetEntry(arg0 context.Context, arg1 sql.NullInt64) (db.Entry, error) {
+func (m *MockStore) GetEntry(arg0 context.Context, arg1 int64) (db.Entry, error) {
 	m.ctrl.T.Helper()
 	ret := m.ctrl.Call(m, "GetEntry", arg0, arg1)
 	ret0, _ := ret[0].(db.Entry)
