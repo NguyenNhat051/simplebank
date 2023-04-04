@@ -1,0 +1,247 @@
+{"Time":"2023-04-04T14:17:10.950568895+07:00","Action":"output","Package":"simplebank","Output":"?   \tsimplebank\t[no test files]\n"}
+{"Time":"2023-04-04T14:17:10.950701779+07:00","Action":"skip","Package":"simplebank","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.24567393+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestCreateAccount"}
+{"Time":"2023-04-04T14:17:11.245841677+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"=== RUN   TestCreateAccount\n"}
+{"Time":"2023-04-04T14:17:11.300810105+07:00","Action":"run","Package":"simplebank/token","Test":"TestJWTMaker"}
+{"Time":"2023-04-04T14:17:11.300873372+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"=== RUN   TestJWTMaker\n"}
+{"Time":"2023-04-04T14:17:11.300883396+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"    jwt_maker_test.go:27: \n"}
+{"Time":"2023-04-04T14:17:11.300887431+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/token/jwt_maker_test.go:27\n"}
+{"Time":"2023-04-04T14:17:11.300890921+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"        \tError:      \tAn error is expected but got nil.\n"}
+{"Time":"2023-04-04T14:17:11.300895667+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"        \tTest:       \tTestJWTMaker\n"}
+{"Time":"2023-04-04T14:17:11.300902987+07:00","Action":"output","Package":"simplebank/token","Test":"TestJWTMaker","Output":"--- FAIL: TestJWTMaker (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.300906489+07:00","Action":"fail","Package":"simplebank/token","Test":"TestJWTMaker","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.3009141+07:00","Action":"run","Package":"simplebank/token","Test":"TestExpiredJWTToken"}
+{"Time":"2023-04-04T14:17:11.300917106+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"=== RUN   TestExpiredJWTToken\n"}
+{"Time":"2023-04-04T14:17:11.300920293+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"    jwt_maker_test.go:38: \n"}
+{"Time":"2023-04-04T14:17:11.300923414+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/token/jwt_maker_test.go:38\n"}
+{"Time":"2023-04-04T14:17:11.300926581+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"        \tError:      \tAn error is expected but got nil.\n"}
+{"Time":"2023-04-04T14:17:11.300931704+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"        \tTest:       \tTestExpiredJWTToken\n"}
+{"Time":"2023-04-04T14:17:11.300935447+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredJWTToken","Output":"--- FAIL: TestExpiredJWTToken (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.300938703+07:00","Action":"fail","Package":"simplebank/token","Test":"TestExpiredJWTToken","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.300941876+07:00","Action":"run","Package":"simplebank/token","Test":"TestInvalidJWTTokenAlgNone"}
+{"Time":"2023-04-04T14:17:11.300944831+07:00","Action":"output","Package":"simplebank/token","Test":"TestInvalidJWTTokenAlgNone","Output":"=== RUN   TestInvalidJWTTokenAlgNone\n"}
+{"Time":"2023-04-04T14:17:11.300949287+07:00","Action":"output","Package":"simplebank/token","Test":"TestInvalidJWTTokenAlgNone","Output":"--- PASS: TestInvalidJWTTokenAlgNone (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.300952587+07:00","Action":"pass","Package":"simplebank/token","Test":"TestInvalidJWTTokenAlgNone","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.300956022+07:00","Action":"run","Package":"simplebank/token","Test":"TestPasetoMaker"}
+{"Time":"2023-04-04T14:17:11.300958948+07:00","Action":"output","Package":"simplebank/token","Test":"TestPasetoMaker","Output":"=== RUN   TestPasetoMaker\n"}
+{"Time":"2023-04-04T14:17:11.300962676+07:00","Action":"output","Package":"simplebank/token","Test":"TestPasetoMaker","Output":"--- PASS: TestPasetoMaker (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.300976182+07:00","Action":"pass","Package":"simplebank/token","Test":"TestPasetoMaker","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.300979884+07:00","Action":"run","Package":"simplebank/token","Test":"TestExpiredPasetoToken"}
+{"Time":"2023-04-04T14:17:11.300982818+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredPasetoToken","Output":"=== RUN   TestExpiredPasetoToken\n"}
+{"Time":"2023-04-04T14:17:11.300986243+07:00","Action":"output","Package":"simplebank/token","Test":"TestExpiredPasetoToken","Output":"--- PASS: TestExpiredPasetoToken (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.300989451+07:00","Action":"pass","Package":"simplebank/token","Test":"TestExpiredPasetoToken","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.300992477+07:00","Action":"output","Package":"simplebank/token","Output":"FAIL\n"}
+{"Time":"2023-04-04T14:17:11.301022787+07:00","Action":"output","Package":"simplebank/token","Output":"FAIL\tsimplebank/token\t0.004s\n"}
+{"Time":"2023-04-04T14:17:11.30102874+07:00","Action":"fail","Package":"simplebank/token","Elapsed":0.004}
+{"Time":"2023-04-04T14:17:11.311540772+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.311601746+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.311609088+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.311612553+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:36\n"}
+{"Time":"2023-04-04T14:17:11.311615809+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.311619933+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.311623026+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"        \tTest:       \tTestCreateAccount\n"}
+{"Time":"2023-04-04T14:17:11.31163066+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Output":"--- FAIL: TestCreateAccount (0.07s)\n"}
+{"Time":"2023-04-04T14:17:11.311634791+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestCreateAccount","Elapsed":0.07}
+{"Time":"2023-04-04T14:17:11.311640154+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount"}
+{"Time":"2023-04-04T14:17:11.311643522+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"=== RUN   TestDeleteAccount\n"}
+{"Time":"2023-04-04T14:17:11.321539524+07:00","Action":"run","Package":"simplebank/util","Test":"TestPassword"}
+{"Time":"2023-04-04T14:17:11.321570933+07:00","Action":"output","Package":"simplebank/util","Test":"TestPassword","Output":"=== RUN   TestPassword\n"}
+{"Time":"2023-04-04T14:17:11.384193075+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.384254612+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.384261627+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.384265163+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:40\n"}
+{"Time":"2023-04-04T14:17:11.384285194+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.38428943+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.384292781+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"        \tTest:       \tTestDeleteAccount\n"}
+{"Time":"2023-04-04T14:17:11.384300875+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Output":"--- FAIL: TestDeleteAccount (0.07s)\n"}
+{"Time":"2023-04-04T14:17:11.384304889+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestDeleteAccount","Elapsed":0.07}
+{"Time":"2023-04-04T14:17:11.384311289+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestListAccounts"}
+{"Time":"2023-04-04T14:17:11.384314961+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"=== RUN   TestListAccounts\n"}
+{"Time":"2023-04-04T14:17:11.410924517+07:00","Action":"run","Package":"simplebank/api","Test":"TestGetAccountApi"}
+{"Time":"2023-04-04T14:17:11.411045187+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi","Output":"=== RUN   TestGetAccountApi\n"}
+{"Time":"2023-04-04T14:17:11.411121862+07:00","Action":"run","Package":"simplebank/api","Test":"TestGetAccountApi/OK"}
+{"Time":"2023-04-04T14:17:11.411143709+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/OK","Output":"=== RUN   TestGetAccountApi/OK\n"}
+{"Time":"2023-04-04T14:17:11.411354449+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/OK","Output":"[GIN] 2023/04/04 - 14:17:11 | 200 |      73.817µs |                 | GET      \"/accounts/934\"\n"}
+{"Time":"2023-04-04T14:17:11.411435333+07:00","Action":"run","Package":"simplebank/api","Test":"TestGetAccountApi/NotFound"}
+{"Time":"2023-04-04T14:17:11.411457986+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/NotFound","Output":"=== RUN   TestGetAccountApi/NotFound\n"}
+{"Time":"2023-04-04T14:17:11.411526092+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/NotFound","Output":"[GIN] 2023/04/04 - 14:17:11 | 404 |      17.014µs |                 | GET      \"/accounts/934\"\n"}
+{"Time":"2023-04-04T14:17:11.411577709+07:00","Action":"run","Package":"simplebank/api","Test":"TestGetAccountApi/InternalError"}
+{"Time":"2023-04-04T14:17:11.411584262+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InternalError","Output":"=== RUN   TestGetAccountApi/InternalError\n"}
+{"Time":"2023-04-04T14:17:11.411638124+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InternalError","Output":"[GIN] 2023/04/04 - 14:17:11 | 500 |      12.829µs |                 | GET      \"/accounts/934\"\n"}
+{"Time":"2023-04-04T14:17:11.41168142+07:00","Action":"run","Package":"simplebank/api","Test":"TestGetAccountApi/InvalidID"}
+{"Time":"2023-04-04T14:17:11.411687578+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InvalidID","Output":"=== RUN   TestGetAccountApi/InvalidID\n"}
+{"Time":"2023-04-04T14:17:11.411754145+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InvalidID","Output":"[GIN] 2023/04/04 - 14:17:11 | 400 |      18.657µs |                 | GET      \"/accounts/0\"\n"}
+{"Time":"2023-04-04T14:17:11.411803288+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi","Output":"--- PASS: TestGetAccountApi (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.411811098+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/OK","Output":"    --- PASS: TestGetAccountApi/OK (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.411825167+07:00","Action":"pass","Package":"simplebank/api","Test":"TestGetAccountApi/OK","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.411841398+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/NotFound","Output":"    --- PASS: TestGetAccountApi/NotFound (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.411845888+07:00","Action":"pass","Package":"simplebank/api","Test":"TestGetAccountApi/NotFound","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.411849033+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InternalError","Output":"    --- PASS: TestGetAccountApi/InternalError (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.411853437+07:00","Action":"pass","Package":"simplebank/api","Test":"TestGetAccountApi/InternalError","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.411856627+07:00","Action":"output","Package":"simplebank/api","Test":"TestGetAccountApi/InvalidID","Output":"    --- PASS: TestGetAccountApi/InvalidID (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.412281531+07:00","Action":"pass","Package":"simplebank/api","Test":"TestGetAccountApi/InvalidID","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.412319161+07:00","Action":"pass","Package":"simplebank/api","Test":"TestGetAccountApi","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.412325914+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI"}
+{"Time":"2023-04-04T14:17:11.41233007+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI","Output":"=== RUN   TestCreateUserAPI\n"}
+{"Time":"2023-04-04T14:17:11.437764197+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.43781361+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.437824382+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.437828634+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:55\n"}
+{"Time":"2023-04-04T14:17:11.437832037+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.437835822+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.437839015+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"        \tTest:       \tTestListAccounts\n"}
+{"Time":"2023-04-04T14:17:11.437846343+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Output":"--- FAIL: TestListAccounts (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.437849768+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestListAccounts","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.437855775+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestCreateEntry"}
+{"Time":"2023-04-04T14:17:11.43785899+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"=== RUN   TestCreateEntry\n"}
+{"Time":"2023-04-04T14:17:11.471544366+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/OK"}
+{"Time":"2023-04-04T14:17:11.471598621+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/OK","Output":"=== RUN   TestCreateUserAPI/OK\n"}
+{"Time":"2023-04-04T14:17:11.49095637+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.491003718+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.491023045+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.491026584+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/entry_test.go:32\n"}
+{"Time":"2023-04-04T14:17:11.49103049+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.491034749+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.491037913+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"        \tTest:       \tTestCreateEntry\n"}
+{"Time":"2023-04-04T14:17:11.491044932+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Output":"--- FAIL: TestCreateEntry (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.491048222+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestCreateEntry","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.491053999+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestGetEntry"}
+{"Time":"2023-04-04T14:17:11.491057588+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"=== RUN   TestGetEntry\n"}
+{"Time":"2023-04-04T14:17:11.544815599+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.544868594+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.54487934+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.544888842+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/entry_test.go:37\n"}
+{"Time":"2023-04-04T14:17:11.544892217+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.54489607+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.544899213+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"        \tTest:       \tTestGetEntry\n"}
+{"Time":"2023-04-04T14:17:11.54490636+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Output":"--- FAIL: TestGetEntry (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.544910247+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestGetEntry","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.544916335+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestListEntries"}
+{"Time":"2023-04-04T14:17:11.544919601+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"=== RUN   TestListEntries\n"}
+{"Time":"2023-04-04T14:17:11.546526727+07:00","Action":"output","Package":"simplebank/util","Test":"TestPassword","Output":"--- PASS: TestPassword (0.22s)\n"}
+{"Time":"2023-04-04T14:17:11.546753479+07:00","Action":"pass","Package":"simplebank/util","Test":"TestPassword","Elapsed":0.22}
+{"Time":"2023-04-04T14:17:11.546766448+07:00","Action":"output","Package":"simplebank/util","Output":"PASS\n"}
+{"Time":"2023-04-04T14:17:11.547385636+07:00","Action":"output","Package":"simplebank/util","Output":"ok  \tsimplebank/util\t0.230s\n"}
+{"Time":"2023-04-04T14:17:11.547424894+07:00","Action":"pass","Package":"simplebank/util","Elapsed":0.23}
+{"Time":"2023-04-04T14:17:11.583938061+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/OK","Output":"[GIN] 2023/04/04 - 14:17:11 | 200 |   112.12171ms |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.583989463+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/InternalError"}
+{"Time":"2023-04-04T14:17:11.583994667+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InternalError","Output":"=== RUN   TestCreateUserAPI/InternalError\n"}
+{"Time":"2023-04-04T14:17:11.598035657+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.598087457+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.598094737+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.598098379+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/entry_test.go:50\n"}
+{"Time":"2023-04-04T14:17:11.598101721+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.598105415+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.598108724+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"        \tTest:       \tTestListEntries\n"}
+{"Time":"2023-04-04T14:17:11.59812047+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListEntries","Output":"--- FAIL: TestListEntries (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.598124214+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestListEntries","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.598131175+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestTransferTx"}
+{"Time":"2023-04-04T14:17:11.598134571+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"=== RUN   TestTransferTx\n"}
+{"Time":"2023-04-04T14:17:11.638801901+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InternalError","Output":"[GIN] 2023/04/04 - 14:17:11 | 500 |   54.656775ms |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.638896267+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/DuplicateUsername"}
+{"Time":"2023-04-04T14:17:11.638903716+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/DuplicateUsername","Output":"=== RUN   TestCreateUserAPI/DuplicateUsername\n"}
+{"Time":"2023-04-04T14:17:11.652100923+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.652162065+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.652209729+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.652216685+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/store_test.go:14\n"}
+{"Time":"2023-04-04T14:17:11.652220296+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.652233288+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.652236689+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"        \tTest:       \tTestTransferTx\n"}
+{"Time":"2023-04-04T14:17:11.652275836+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Output":"--- FAIL: TestTransferTx (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.65231635+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestTransferTx","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.652340358+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock"}
+{"Time":"2023-04-04T14:17:11.652346566+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"=== RUN   TestTransferTxDeadlock\n"}
+{"Time":"2023-04-04T14:17:11.697890534+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/DuplicateUsername","Output":"[GIN] 2023/04/04 - 14:17:11 | 403 |   58.965627ms |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.698032207+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidUsername"}
+{"Time":"2023-04-04T14:17:11.698042167+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidUsername","Output":"=== RUN   TestCreateUserAPI/InvalidUsername\n"}
+{"Time":"2023-04-04T14:17:11.698211887+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidUsername","Output":"[GIN] 2023/04/04 - 14:17:11 | 400 |      48.986µs |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.698290549+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidEmail"}
+{"Time":"2023-04-04T14:17:11.698299042+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidEmail","Output":"=== RUN   TestCreateUserAPI/InvalidEmail\n"}
+{"Time":"2023-04-04T14:17:11.69866812+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidEmail","Output":"[GIN] 2023/04/04 - 14:17:11 | 400 |      28.972µs |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.698741791+07:00","Action":"run","Package":"simplebank/api","Test":"TestCreateUserAPI/TooShortPassword"}
+{"Time":"2023-04-04T14:17:11.698749543+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/TooShortPassword","Output":"=== RUN   TestCreateUserAPI/TooShortPassword\n"}
+{"Time":"2023-04-04T14:17:11.698802675+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/TooShortPassword","Output":"[GIN] 2023/04/04 - 14:17:11 | 400 |      15.105µs |                 | POST     \"/users\"\n"}
+{"Time":"2023-04-04T14:17:11.698848814+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI","Output":"--- PASS: TestCreateUserAPI (0.29s)\n"}
+{"Time":"2023-04-04T14:17:11.698856105+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/OK","Output":"    --- PASS: TestCreateUserAPI/OK (0.11s)\n"}
+{"Time":"2023-04-04T14:17:11.698859986+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/OK","Elapsed":0.11}
+{"Time":"2023-04-04T14:17:11.698866366+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InternalError","Output":"    --- PASS: TestCreateUserAPI/InternalError (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.698869784+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/InternalError","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.698873661+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/DuplicateUsername","Output":"    --- PASS: TestCreateUserAPI/DuplicateUsername (0.06s)\n"}
+{"Time":"2023-04-04T14:17:11.698877046+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/DuplicateUsername","Elapsed":0.06}
+{"Time":"2023-04-04T14:17:11.698889178+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidUsername","Output":"    --- PASS: TestCreateUserAPI/InvalidUsername (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.698892764+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidUsername","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.698896277+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidEmail","Output":"    --- PASS: TestCreateUserAPI/InvalidEmail (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.69889964+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/InvalidEmail","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.698902652+07:00","Action":"output","Package":"simplebank/api","Test":"TestCreateUserAPI/TooShortPassword","Output":"    --- PASS: TestCreateUserAPI/TooShortPassword (0.00s)\n"}
+{"Time":"2023-04-04T14:17:11.698920418+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI/TooShortPassword","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.698924073+07:00","Action":"pass","Package":"simplebank/api","Test":"TestCreateUserAPI","Elapsed":0.29}
+{"Time":"2023-04-04T14:17:11.698927302+07:00","Action":"output","Package":"simplebank/api","Output":"PASS\n"}
+{"Time":"2023-04-04T14:17:11.699877425+07:00","Action":"output","Package":"simplebank/api","Output":"ok  \tsimplebank/api\t0.298s\n"}
+{"Time":"2023-04-04T14:17:11.699899961+07:00","Action":"pass","Package":"simplebank/api","Elapsed":0.298}
+{"Time":"2023-04-04T14:17:11.700778085+07:00","Action":"output","Package":"simplebank/db/mock","Output":"?   \tsimplebank/db/mock\t[no test files]\n"}
+{"Time":"2023-04-04T14:17:11.700800264+07:00","Action":"skip","Package":"simplebank/db/mock","Elapsed":0}
+{"Time":"2023-04-04T14:17:11.705870815+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.705922512+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.705929208+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.705933448+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/store_test.go:126\n"}
+{"Time":"2023-04-04T14:17:11.70593751+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.705941093+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.705944857+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"        \tTest:       \tTestTransferTxDeadlock\n"}
+{"Time":"2023-04-04T14:17:11.70595539+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Output":"--- FAIL: TestTransferTxDeadlock (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.705959279+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestTransferTxDeadlock","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.705964918+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer"}
+{"Time":"2023-04-04T14:17:11.705968539+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"=== RUN   TestCreateTransfer\n"}
+{"Time":"2023-04-04T14:17:11.760544061+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.760596218+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.7606126+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.760616198+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/transfer_test.go:34\n"}
+{"Time":"2023-04-04T14:17:11.760620074+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.760624861+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.760628335+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"        \tTest:       \tTestCreateTransfer\n"}
+{"Time":"2023-04-04T14:17:11.760636896+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Output":"--- FAIL: TestCreateTransfer (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.760645769+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestCreateTransfer","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.760651552+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestGetTransfer"}
+{"Time":"2023-04-04T14:17:11.760654802+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"=== RUN   TestGetTransfer\n"}
+{"Time":"2023-04-04T14:17:11.813877572+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.813936098+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.813943259+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.813951436+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/transfer_test.go:40\n"}
+{"Time":"2023-04-04T14:17:11.81395498+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.813959019+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.813962187+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"        \tTest:       \tTestGetTransfer\n"}
+{"Time":"2023-04-04T14:17:11.813971438+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Output":"--- FAIL: TestGetTransfer (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.813975232+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestGetTransfer","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.81398105+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestListTransfer"}
+{"Time":"2023-04-04T14:17:11.813984299+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"=== RUN   TestListTransfer\n"}
+{"Time":"2023-04-04T14:17:11.867291926+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.867347351+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.86736344+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/account_test.go:13\n"}
+{"Time":"2023-04-04T14:17:11.86736701+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/transfer_test.go:56\n"}
+{"Time":"2023-04-04T14:17:11.867370321+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.867373989+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.867377712+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"        \tTest:       \tTestListTransfer\n"}
+{"Time":"2023-04-04T14:17:11.867384805+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Output":"--- FAIL: TestListTransfer (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.867388461+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestListTransfer","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.867394165+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestCreateUser"}
+{"Time":"2023-04-04T14:17:11.867397375+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"=== RUN   TestCreateUser\n"}
+{"Time":"2023-04-04T14:17:11.9182304+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.918285822+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.91829579+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:39\n"}
+{"Time":"2023-04-04T14:17:11.91829928+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.918302929+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.918305929+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"        \tTest:       \tTestCreateUser\n"}
+{"Time":"2023-04-04T14:17:11.918312801+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Output":"--- FAIL: TestCreateUser (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.91831612+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestCreateUser","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.918321675+07:00","Action":"run","Package":"simplebank/db/sqlc","Test":"TestGetUser"}
+{"Time":"2023-04-04T14:17:11.918333375+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"=== RUN   TestGetUser\n"}
+{"Time":"2023-04-04T14:17:11.972215257+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"    user_test.go:24: \n"}
+{"Time":"2023-04-04T14:17:11.972269981+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"        \tError Trace:\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:24\n"}
+{"Time":"2023-04-04T14:17:11.972277306+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"        \t            \t\t\t\t/home/neil/Desktop/simplebank/db/sqlc/user_test.go:43\n"}
+{"Time":"2023-04-04T14:17:11.97228116+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"        \tError:      \tReceived unexpected error:\n"}
+{"Time":"2023-04-04T14:17:11.972293323+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"        \t            \tdial tcp 127.0.0.1:5432: connect: connection refused\n"}
+{"Time":"2023-04-04T14:17:11.972296888+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"        \tTest:       \tTestGetUser\n"}
+{"Time":"2023-04-04T14:17:11.972307937+07:00","Action":"output","Package":"simplebank/db/sqlc","Test":"TestGetUser","Output":"--- FAIL: TestGetUser (0.05s)\n"}
+{"Time":"2023-04-04T14:17:11.972311247+07:00","Action":"fail","Package":"simplebank/db/sqlc","Test":"TestGetUser","Elapsed":0.05}
+{"Time":"2023-04-04T14:17:11.972318205+07:00","Action":"output","Package":"simplebank/db/sqlc","Output":"FAIL\n"}
+{"Time":"2023-04-04T14:17:11.972941809+07:00","Action":"output","Package":"simplebank/db/sqlc","Output":"FAIL\tsimplebank/db/sqlc\t0.736s\n"}
+{"Time":"2023-04-04T14:17:11.972980426+07:00","Action":"fail","Package":"simplebank/db/sqlc","Elapsed":0.736}
