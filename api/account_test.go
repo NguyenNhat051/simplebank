@@ -121,7 +121,7 @@ func TestGetAccountApi(t *testing.T) {
 	}
 }
 
-func needCheckTestCreateAccountAPI(t *testing.T) {
+func TestCreateAccountAPI(t *testing.T) {
 	user, _ := randomUser(t)
 	account := randomAccount(user.Username)
 
