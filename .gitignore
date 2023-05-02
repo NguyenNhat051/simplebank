@@ -2,3 +2,4 @@ coverage.out
 coverage
 exclude_packages.txt
 coverage.xml
+.github/
